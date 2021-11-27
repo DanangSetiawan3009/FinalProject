@@ -1,0 +1,19 @@
+.containerr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5;
+    gap: 10;
+}
+
+.list-gambar1, .list-gambar2, .list-gambar3 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    flex-flow: row-reverse;
+    padding: 20;
+}
+
+img {
+    width: 350px;
+    height: 175px;
+}

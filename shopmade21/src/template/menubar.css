@@ -1,0 +1,49 @@
+.listmenu {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(121, 121, 121);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.listmenu .menu,
+  .login {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .listmenu .menu:hover {
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+  }
+  
+  .login {
+    width: max-content;
+    padding-right: 20;
+  }
+
+  .login-btn {
+    padding: 15px 40px;
+    cursor: pointer;
+  }
+
+  .listmenu .login:hover {
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+  }

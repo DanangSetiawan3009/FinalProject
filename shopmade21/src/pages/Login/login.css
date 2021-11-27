@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.login-container {
+    gap: 5;
+    padding: 20px;
+    border-style: double;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: aqua;
+}
+
+.btn1:hover {
+    background-color: darkturquoise;
+}
+
+.btn2 {
+    width: 100%;
+    padding: 8px 10px;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
